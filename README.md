@@ -1,4 +1,4 @@
-# ChilliPharmApp
+# The Movie DB
 
 # Task
 
@@ -33,5 +33,5 @@ The build directory has the Production build ready to be deployed to a server
 
 # Previews
 
-![alt text](https://github.com/tejpal-sohal/TMDbapp/tree/master/web.jpg "Movie DB")
-![alt text](https://github.com/tejpal-sohal/TMDbapp/tree/master/mobile.jpg "Movie DB")
+![alt text](https://github.com/tejpal-sohal/TMDbapp/blob/master/web.jpg "Movie DB")
+![alt text](https://github.com/tejpal-sohal/TMDbapp/blob/master/mobile.jpg "Movie DB")
