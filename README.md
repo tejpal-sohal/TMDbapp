@@ -24,12 +24,15 @@ Styling is up to you, make it look presentable.
   * for out of the box features such as styling and responsiveness.
 
 # Instructions
-Please run npm install in the app dir and then run the command: 
+Please run the commands in Production dir: 
 ```
+npm install
 npm start
 ```
+This will start the server on and show you the prodcution build. You can run the same commands in the dev dir to see the Application in dev mode.
+
 ## Release
-The build directory has the Production build ready to be deployed to a server
+The Production directory has the Production build ready to be deployed to a server
 
 # Previews
 
