@@ -2,18 +2,22 @@
 
 import React from 'react';
 
+const tile = {
+    cursor: "pointer"
+}
+
 function LayoutCom({title,poster,text,modal,date,rate,customeModalId,modalImg,modalText}) {
-    return <div className="col-sm-6 col-md-4">
+    return<div className="col-6 col-md-6 col-lg-4" style={tile} data-toggle="modal" data-target={modal} >
                 <div  className="card mb-4 shadow-sm">
                     <img className="img-fluid" src={poster} />
                     <div className="card-body">
                         <h4>{title}</h4>
-                        <p><small className="card-text">{text}</small></p>
+                        <p ><small className="card-text d-none d-sm-block">{text}</small></p>
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="btn-group">
-                                <button data-toggle="modal" data-target={modal} type="button" className="btn btn-sm btn-outline-secondary">More</button>
+                                <button data-toggle="modal" data-target={modal} type="button" className="btn btn-sm btn-outline-secondary  d-none d-sm-block">More</button>
                             </div>
-                            <small className="text-muted"><strong>Release Date</strong><br /> {date}</small>
+                            <small className="text-muted d-none d-sm-block"><strong>Release Date</strong><br /> {date}</small>
                         </div><br />
                         <h4 style={{ lineHeight: '0.5' }} className="text-muted float-right"><strong style={{ fontSize: '40px' }}>{rate}</strong><br /><span style={{ fontSize: '10px' }}>vote average</span></h4>
                     </div>

@@ -83,11 +83,11 @@
 
   ul.buttons-wrapper li {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
   }
 
   a.btn.btn-dark {
-    min-width: 200px;
+    min-width: 300px;
   }
 
   .custom {
@@ -103,3 +103,11 @@
   .modal-open .modal {
     z-index: 9999;
   }
+
+
+    @media (max-width: 600px) {
+      .card-body h4 {
+      font-size: 1rem;
+      }
+    }
+  
